@@ -1,7 +1,8 @@
 (library
  (name tcpip_checksum_xen)
  (public_name tcpip-checksum.xen)
- (implements tcpip_checksum)
+ (implements tcpip-checksum)
+ (libraries mirage-xen-ocaml)
  (c_names checksum_stubs)
  (c_flags (:include c_flags_xen.sexp)))
 
