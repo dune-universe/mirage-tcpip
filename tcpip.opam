@@ -19,7 +19,7 @@ build: [
 ]
 
 depends: [
-  "dune" {build & >= "1.0"}
+  "dune" {build & >= "1.7"}
   "configurator" {build}
   "ocaml" {>= "4.03.0"}
   "rresult" {>= "0.5.0"}
