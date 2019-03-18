@@ -2,6 +2,8 @@
  (name tcpip_checksum_unix)
  (public_name tcpip-checksum.unix)
  (implements tcpip-checksum)
+ (variant unix)
+ (optional)
  (c_names checksum_stubs))
 
 (copy_files# ../checksum_stubs.c)

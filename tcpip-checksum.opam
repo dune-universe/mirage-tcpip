@@ -23,6 +23,8 @@ depends: [
   "configurator" {build}
   "ocaml" {>= "4.03.0"}
   "cstruct" {>= "3.0.2"}
+]
+depopts: [
   "mirage-xen-ocaml" {>= "3.1.0"}
 ]
 synopsis: "Checksum functions for TCP/IP"

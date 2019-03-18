@@ -3,4 +3,5 @@
  (public_name tcpip-checksum)
  (modules tcpip_checksum)
  (virtual_modules tcpip_checksum)
+ (default_implementation tcpip_checksum_ocaml)
  (libraries   cstruct))

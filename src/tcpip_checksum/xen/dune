@@ -4,6 +4,8 @@
  (implements tcpip-checksum)
  (libraries mirage-xen-ocaml)
  (c_names checksum_stubs)
+ (variant xen)
+ (optional)
  (c_flags (:include c_flags_xen.sexp)))
 
 (rule
